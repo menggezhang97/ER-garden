@@ -23,3 +23,41 @@ their own test scene
 their own scripts/prefabs
 
 Only after testing, changes should be merged into the main project.
+
+Main rule
+main branch = stable version only
+do not push unfinished or broken code directly to main
+Suggested branches
+
+Each member should create and use their own branch. U can create ur own one. 
+Before you start coding
+
+Each time before starting work:
+
+open CodeShare / Git
+pull the latest version from main
+switch to your own branch
+start working
+
+# The example file-sturcture could be: 
+Assets/
+  Scenes/
+    MainScene.unity
+    TestScenes/
+  Prefabs/
+    Plants/
+    Environment/
+    Interactables/
+    UI/
+  Scripts/
+    PlantSystem/
+    Interaction/
+    UI/
+    Environment/
+    Managers/
+  Art/
+    Models/
+    Materials/
+    Audio/
+    UI/
+
