@@ -1,9 +1,9 @@
-XR Garden Planner - Simple Team Workflow
-Project goal
+## XR Garden Planner - Simple Team Workflow
+# Project goal
 
 This project is a simple XR/VR garden planner made in Unity.
 
-Current planned features:
+# Current planned features:
 
 a basic garden scene
 plant objects with different growth stages
