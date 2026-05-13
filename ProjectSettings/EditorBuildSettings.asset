@@ -1,0 +1,14 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes: []
+  m_configObjects:
+    UnityEditor.XR.VisionOS.VisionOSSettings: {fileID: 11400000, guid: 32f4d6c3784b5c842928bd17a05cc5f4, type: 2}
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+    com.unity.polyspatial.xr.xr_settings: {fileID: 11400000, guid: d3e8ab33951be4f418c17e172a54c45e, type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 0538b760776c14644bf83bfbb60b0f0f, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: c6b071a879f651f43b1c93db394753fc, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 7b2c2a500d0e08142b6f190d7d4fe4e0, type: 2}
