@@ -1,0 +1,46 @@
+{
+    "version": 1,
+    "name": "XRWateringActions",
+    "maps": [
+        {
+            "name": "XRGameplay",
+            "id": "be7f8b69-f444-4ef2-94c0-8e1027bbad5a",
+            "actions": [
+                {
+                    "name": "Water",
+                    "type": "Button",
+                    "id": "a4b870ca-4967-4590-8cc1-e3aff56a687f",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "a9ea0635-7459-437b-8607-1a9a17c89e10",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Water",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b35d36f4-1f1d-4297-9667-2f899ef49ef1",
+                    "path": "<QuestTouchPlusController>{RightHand}/{TriggerButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Water",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
