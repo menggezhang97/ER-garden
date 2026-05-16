@@ -4,7 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/garden-scene-test.unity
+    guid: d5e57e6d49a95914da68d3683ba4a559
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 2f312c1952f049b42bb6db0fe97b6b75, type: 2}
     UnityEditor.XR.VisionOS.VisionOSSettings: {fileID: 11400000, guid: 32f4d6c3784b5c842928bd17a05cc5f4, type: 2}

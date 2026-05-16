@@ -7,6 +7,13 @@
 [Bb]uild/
 [Bb]uilds/
 
+*.slnx
+*.idea/
+*.vscode/
+.utmp/
+.vsconfig
+ProjectSettings/GvhProjectSettings.xml
+
 *.csproj
 *.sln
 *.user
