@@ -3,7 +3,7 @@ using UnityEngine;
 public class GrowablePlant : MonoBehaviour
 {
     [Header("Growth Settings")]
-    [SerializeField] private float minScale = 0.2f;
+    [SerializeField] private float plantedScale = 0.2f;
     [SerializeField] private float maxScale = 1.0f;
     [SerializeField] private float growthPerSecond = 0.15f;
 
@@ -11,7 +11,7 @@ public class GrowablePlant : MonoBehaviour
 
     private void Start()
     {
-        currentScale = minScale;
+        currentScale = plantedScale;
         ApplyScale();
     }
 
@@ -22,7 +22,6 @@ public class GrowablePlant : MonoBehaviour
 
         currentScale += growthPerSecond * deltaTime;
         currentScale = Mathf.Min(currentScale, maxScale);
-
         ApplyScale();
     }
 
