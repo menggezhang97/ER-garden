@@ -1,2 +1,19 @@
 fileFormatVersion: 2
 guid: e987486e848fc69479c0d759ef7d8df2
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - inventory: {instanceID: 0}
+  - inventoryPanel: {instanceID: 0}
+  - playerCamera: {instanceID: 0}
+  - selectedPlantText: {instanceID: 0}
+  - toggleInventoryAction: {fileID: -5982496924579745919, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  - nextPlantAction: {fileID: 15759602096507913, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  - previousPlantAction: {fileID: -3742484312079769484, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  - confirmSelectionAction: {fileID: 187161793506945269, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

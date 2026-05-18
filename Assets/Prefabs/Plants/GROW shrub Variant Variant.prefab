@@ -50,7 +50,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6527066514930576640, guid: 4a5c3f58cf4a9055693572e2fb1af5aa, type: 3}
       propertyPath: m_Name
-      value: shrub Variant Variant
+      value: GROW shrub Variant Variant
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -59,6 +59,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6527066514930576640, guid: 4a5c3f58cf4a9055693572e2fb1af5aa, type: 3}
       insertIndex: -1
       addedObject: {fileID: -4617844578492787027}
+    - targetCorrespondingSourceObject: {fileID: 6527066514930576640, guid: 4a5c3f58cf4a9055693572e2fb1af5aa, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -5579169650576427875}
   m_SourcePrefab: {fileID: 100100000, guid: 4a5c3f58cf4a9055693572e2fb1af5aa, type: 3}
 --- !u!1 &3028578250559717717 stripped
 GameObject:
@@ -77,6 +80,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 448178626ac09a14f8e27d9595328ae3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GrowablePlant
-  minScale: 0.2
+  plantedScale: 0.2
   maxScale: 1
   growthPerSecond: 0.15
+--- !u!64 &-5579169650576427875
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3028578250559717717}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6058517668492572802, guid: c79fabe36f46308ce9812c017552943f, type: 3}

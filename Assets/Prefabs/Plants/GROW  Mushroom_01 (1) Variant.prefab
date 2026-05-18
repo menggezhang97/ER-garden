@@ -50,7 +50,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4385080170328260021, guid: ff62b58c5a9ea164fa8ddf8038e10cd1, type: 3}
       propertyPath: m_Name
-      value: Mushroom_01 (1) Variant
+      value: GROW  Mushroom_01 (1) Variant
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -59,6 +59,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4385080170328260021, guid: ff62b58c5a9ea164fa8ddf8038e10cd1, type: 3}
       insertIndex: -1
       addedObject: {fileID: -8611844118731157386}
+    - targetCorrespondingSourceObject: {fileID: 4385080170328260021, guid: ff62b58c5a9ea164fa8ddf8038e10cd1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -1825459434321424446}
+    - targetCorrespondingSourceObject: {fileID: 4385080170328260021, guid: ff62b58c5a9ea164fa8ddf8038e10cd1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -8480504820368408126}
   m_SourcePrefab: {fileID: 100100000, guid: ff62b58c5a9ea164fa8ddf8038e10cd1, type: 3}
 --- !u!1 &8393663826834387966 stripped
 GameObject:
@@ -77,6 +83,60 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 448178626ac09a14f8e27d9595328ae3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GrowablePlant
-  minScale: 0.2
+  plantedScale: 0.2
   maxScale: 1
   growthPerSecond: 0.15
+  storedWater: 0
+  waterConsumptionRate: 1
+--- !u!65 &-1825459434321424446
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8393663826834387966}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &-8480504820368408126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8393663826834387966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e8092527249e1d41b76436f2a05365c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlantSunlight
+  sunTransform: {fileID: 0}
+  shadowCasterLayers:
+    serializedVersion: 2
+    m_Bits: 2147483707
+  rayOriginOffset: 0.1
+  rayLength: 30
+  exposureRecoveryRate: 0.2
+  exposureDepletionRate: 0.1
+  shadowThreshold: 0.3
+  healthyColor: {r: 1, g: 1, b: 1, a: 1}
+  fadedColor: {r: 1, g: 1, b: 1, a: 1}
+  colorLerpSpeed: 2
+  wiltedScaleMultiplier: 0.75
+  wiltTiltDegrees: 20
+  wiltLerpSpeed: 1.5
+  penaliseGrowthInShadow: 1
+  shadowGrowthMultiplier: 0
+  sunExposure: 1
+  isInShadow: 0
