@@ -19,6 +19,8 @@ public class DayNightCycle : MonoBehaviour
     [Range(0f, 1f)]
     public float timeOfDay = 0.35f; // Start in the morning
 
+    public float CurrentTimeOfDay => timeOfDay;
+
     [Tooltip("Should time automatically progress?")]
     public bool autoAdvanceTime = true;
 
